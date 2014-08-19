@@ -17,8 +17,7 @@ And then execute:
 ## Usage
 
 ```ruby
-client = Bettery::Client.new
-projects = client.get('projects.json')
+projects = Bettery.projects
 projects.fields => #<Set: {:total_entries, :offset, :total_pages, :current_page, :per_page, :data}>
 projects.total_entries #=> 11149
 projects.data.first.title #=> "Mit der DKMS im Kampf gegen Blutkrebs!"

@@ -1,5 +1,7 @@
 require 'sawyer'
 require 'bettery/configurable'
+require 'bettery/project'
+require 'bettery/client/projects'
 
 module Bettery
 
@@ -8,6 +10,7 @@ module Bettery
   # @see https://developer.betterplace.org
   class Client
     include Bettery::Configurable
+    include Bettery::Client::Projects
 
     # Header keys that can be passed in options hash to {#get},{#head}
     CONVENIENCE_HEADERS = Set.new([:accept, :content_type])
