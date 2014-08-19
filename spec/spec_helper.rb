@@ -3,7 +3,7 @@ require 'coveralls'
 require 'webmock/rspec'
 require 'vcr'
 
-WebMock.disable_net_connect!
+WebMock.disable_net_connect!(allow: 'coveralls.io')
 
 SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter[
   SimpleCov::Formatter::HTMLFormatter,
