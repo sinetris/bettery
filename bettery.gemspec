@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Bettery::VERSION
   spec.authors       = ["Duilio Ruggiero"]
   spec.email         = ["duilio.ruggiero@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{Betterplace API wrapper in Ruby.}
+  spec.description   = %q{Ruby toolkit for working with the Betterplace API.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
