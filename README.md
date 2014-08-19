@@ -1,6 +1,7 @@
 # Bettery
 
 [![Build Status](https://travis-ci.org/sinetris/bettery.svg?branch=master)](https://travis-ci.org/sinetris/bettery)
+[![Coverage Status](https://img.shields.io/coveralls/sinetris/bettery.svg)](https://coveralls.io/r/sinetris/bettery?branch=master)
 
 Ruby toolkit for working with the [Betterplace API][betterplace_api].
 
