@@ -1,5 +1,7 @@
 # Bettery
 
+[![Build Status](https://travis-ci.org/sinetris/bettery.svg?branch=master)](https://travis-ci.org/sinetris/bettery)
+
 Ruby toolkit for working with the [Betterplace API][betterplace_api].
 
 ## Installation
