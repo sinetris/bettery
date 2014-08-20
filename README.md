@@ -1,5 +1,6 @@
 # Bettery
 
+[![Gem Version](https://badge.fury.io/rb/bettery.svg)](http://badge.fury.io/rb/bettery)
 [![Build Status](https://travis-ci.org/sinetris/bettery.svg?branch=master)](https://travis-ci.org/sinetris/bettery)
 [![Coverage Status](https://img.shields.io/coveralls/sinetris/bettery.svg)](https://coveralls.io/r/sinetris/bettery?branch=master)
 [![Dependency Status](https://gemnasium.com/sinetris/bettery.svg)](https://gemnasium.com/sinetris/bettery)
