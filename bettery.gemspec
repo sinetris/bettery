@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["duilio.ruggiero@gmail.com"]
   spec.summary       = %q{Betterplace API wrapper in Ruby.}
   spec.description   = %q{Ruby toolkit for working with the Betterplace API.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/sinetris/bettery"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
@@ -18,7 +18,9 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
+  spec.required_ruby_version = "~> 2.0"
+
   spec.add_development_dependency "bundler", "~> 1.6"
 
-  spec.add_runtime_dependency 'sawyer', '~> 0.5.4'
+  spec.add_runtime_dependency 'sawyer', '~> 0.5'
 end
